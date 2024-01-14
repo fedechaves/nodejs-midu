@@ -1,1 +1,1 @@
-const http = requier('node:http')
+const http = require('node:http')
