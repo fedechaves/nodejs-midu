@@ -20,6 +20,8 @@ const processRequest = (req, res) => {
     })
   } else if (req.url === '/contacto') {
     res.end('<h1>Contacto</h1>')
+  } else if (req.url === '/fedecha') {
+    res.end('<h1> Soy fedecha </h1>')
   } else {
     res.statusCode = 404 // Not Found
     res.end('<h1>404</h1>')
